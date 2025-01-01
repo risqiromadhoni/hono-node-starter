@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.13.2
-        version: 1.13.2(hono@4.6.4)
+        version: 1.13.2(hono@4.6.15)
       hono:
-        specifier: ^4.6.4
-        version: 4.6.4
+        specifier: ^4.6.15
+        version: 4.6.15
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.3
@@ -743,8 +743,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.6.4:
-    resolution: {integrity: sha512-T5WqBkTOcIQblqBKB5mpzaH/A+dSpvVe938xZJCHOmOuYfF7DSwE/9/10+BMvwSPq9N/f6LiQ38HxrZSQOsXKw==}
+  hono@4.6.15:
+    resolution: {integrity: sha512-OiQwvAOAaI2JrABBH69z5rsctHDzFzIKJge0nYXgtzGJ0KftwLWcBXm1upJC23/omNRtnqM0gjRMbtXshPdqhQ==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@2.0.2:
@@ -1366,9 +1366,9 @@ snapshots:
   '@esbuild/win32-x64@0.23.1':
     optional: true
 
-  '@hono/node-server@1.13.2(hono@4.6.4)':
+  '@hono/node-server@1.13.2(hono@4.6.15)':
     dependencies:
-      hono: 4.6.4
+      hono: 4.6.15
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1721,7 +1721,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.6.4: {}
+  hono@4.6.15: {}
 
   html-escaper@2.0.2: {}
 
